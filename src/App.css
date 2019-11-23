@@ -100,13 +100,10 @@
   opacity: 0.9;
 }
 .sub-menu a {
-  font-size: 1.04em;
-  letter-spacing: 0.015em;
+  font-size: 0.89em;
+  letter-spacing: 0.035em;
+  word-spacing: 0.075em;
   color: #b7c9cc !important;
-}
-/* remove */
-.menu-container {
-  /* display: none; */
 }
 
 .hr__hamburger {
