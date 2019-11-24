@@ -7,10 +7,10 @@ class SideMenu extends React.Component {
     this.showmenu = this.showmenu.bind(this);
   }
   componentDidMount() {
-    $('.menu-container').hide();
+    // $('.menu-container').hide();
   }
   showmenu = () => {
-    $('.menu-container').toggle();
+    $('.menu-container').toggleClass('width-0');
     $('#side-pagination-hamburger').toggleClass('arrow');
   };
   render() {

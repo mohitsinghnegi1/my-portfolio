@@ -195,3 +195,10 @@
   .hr__hamburger__inner::after {
   transform: translate3d(-3.6px, 0, 0) rotate(45deg) scale(0.7, 1);
 }
+.width-0 {
+  width: 0px !important;
+  padding: 0px;
+  /* opacity: 0; */
+  transition: width 0.5s cubic-bezier(0.32, 0.01, 0, 1);
+  font-size: 0px;
+}
