@@ -1,6 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #sidemenu {
   background-color: #0e141e;
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 4.616em;
   left: 0;
@@ -63,7 +68,7 @@
   /* transform: translateX(-100%); */
   transition: transform 0.25s cubic-bezier(0.32, 0.01, 0, 1);
   top: 0;
-  width: 600px;
+  width: 680px;
   max-width: 100vw;
   padding: 4.215em 3.846em;
   color: #fff;

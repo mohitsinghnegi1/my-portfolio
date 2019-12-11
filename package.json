@@ -5,6 +5,7 @@
   "homepage": "https://mohitsinghnegi1.github.io/my-portfolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "comparison-slider": "^1.0.1",
     "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
     "react": "^16.4.0",
