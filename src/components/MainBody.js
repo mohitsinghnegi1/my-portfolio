@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/mainbody.css';
 import img1 from '../img/undraw_static_assets_rpm6.svg';
+import ComparisionSlider1 from './ComparisionSlider';
 class MainBody extends React.Component {
   render() {
     return (
@@ -9,11 +10,23 @@ class MainBody extends React.Component {
           <div className='col-lg-5 offset-lg-1 d-flex align-items-end'>
             <img src={img1} style={{ width: '90%', height: '90%' }}></img>
           </div>
-          <div className='intro-box col-lg-6 '></div>
+          <div className='intro-box col-lg-6 '>
+            <ComparisionSlider1 />
+          </div>
         </div>
         <div className='row dl-r '>
-          <div className='col-lg-1 resb offset-lg-5 '>go down</div>
-          <div className=' col-lg-3 resb '>download Resume</div>
+          <div
+            className='col-lg-1 resb offset-lg-5 '
+            style={{
+              backgroundColor: '#ffc107',
+              color: '#fff',
+              cursor: 'pointer'
+            }}>
+            go down
+          </div>
+          <div className=' col-lg-3 resb ' style={{ cursor: 'pointer' }}>
+            download Resume
+          </div>
           <div className=' col-lg-3 resb '>Other Info</div>
         </div>
         <div className='row box box2'></div>

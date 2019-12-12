@@ -7,7 +7,7 @@ class SideMenu extends React.Component {
     this.showmenu = this.showmenu.bind(this);
   }
   componentDidMount() {
-    // $('.menu-container').hide();
+    $('.menu-container').toggleClass('width-0');
   }
   showmenu = () => {
     $('.menu-container').toggleClass('width-0');
