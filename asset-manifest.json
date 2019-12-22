@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.a23f4ae9.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.1d8771d4.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.1d8771d4.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.f4fd99c1.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.8ea38a5a.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.8ea38a5a.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.9c4e7d6c.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.9c4e7d6c.js.map",
-    "static/css/2.833dd627.chunk.css": "/my-portfolio/static/css/2.833dd627.chunk.css",
-    "static/js/2.403dfc8e.chunk.js": "/my-portfolio/static/js/2.403dfc8e.chunk.js",
-    "static/js/2.403dfc8e.chunk.js.map": "/my-portfolio/static/js/2.403dfc8e.chunk.js.map",
+    "static/css/2.b9998359.chunk.css": "/my-portfolio/static/css/2.b9998359.chunk.css",
+    "static/js/2.08af2c99.chunk.js": "/my-portfolio/static/js/2.08af2c99.chunk.js",
+    "static/js/2.08af2c99.chunk.js.map": "/my-portfolio/static/js/2.08af2c99.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.0dbb073a7cb01246d69420d2c11d8f4d.js": "/my-portfolio/precache-manifest.0dbb073a7cb01246d69420d2c11d8f4d.js",
+    "precache-manifest.7020e1c18df708694f01c39c56943670.js": "/my-portfolio/precache-manifest.7020e1c18df708694f01c39c56943670.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/2.833dd627.chunk.css.map": "/my-portfolio/static/css/2.833dd627.chunk.css.map",
-    "static/css/main.a23f4ae9.chunk.css.map": "/my-portfolio/static/css/main.a23f4ae9.chunk.css.map",
+    "static/css/2.b9998359.chunk.css.map": "/my-portfolio/static/css/2.b9998359.chunk.css.map",
+    "static/css/main.f4fd99c1.chunk.css.map": "/my-portfolio/static/css/main.f4fd99c1.chunk.css.map",
+    "static/media/font-awesome.min.css": "/my-portfolio/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/undraw_static_assets_rpm6.svg": "/my-portfolio/static/media/undraw_static_assets_rpm6.33a32219.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9c4e7d6c.js",
-    "static/css/2.833dd627.chunk.css",
-    "static/js/2.403dfc8e.chunk.js",
-    "static/css/main.a23f4ae9.chunk.css",
-    "static/js/main.1d8771d4.chunk.js"
+    "static/css/2.b9998359.chunk.css",
+    "static/js/2.08af2c99.chunk.js",
+    "static/css/main.f4fd99c1.chunk.css",
+    "static/js/main.8ea38a5a.chunk.js"
   ]
 }
