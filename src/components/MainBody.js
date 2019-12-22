@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/mainbody.css';
 import img1 from '../img/undraw_static_assets_rpm6.svg';
 import ComparisionSlider1 from './ComparisionSlider';
+import 'font-awesome/css/font-awesome.min.css';
 class MainBody extends React.Component {
   render() {
     return (
@@ -22,12 +23,16 @@ class MainBody extends React.Component {
               color: '#fff',
               cursor: 'pointer'
             }}>
-            go down
+            <i class='fa fa-3x fa-arrow-circle-o-down' aria-hidden='true'></i>
           </div>
           <div className=' col-lg-3 resb ' style={{ cursor: 'pointer' }}>
-            download Resume
+            <i class='fa  fa-file-text-o' aria-hidden='true'></i>
+            &nbsp;Download Resume
           </div>
-          <div className=' col-lg-3 resb '>Other Info</div>
+          <div className=' col-lg-3 resb '>
+            <i class='fa fa-whatsapp' aria-hidden='true'></i>
+            &nbsp;+91-8194997428
+          </div>
         </div>
         <div className='row box box2'></div>
         <div className='row box'>

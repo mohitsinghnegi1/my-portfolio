@@ -93,3 +93,10 @@ footer {
   justify-content: flex-end;
   align-items: center;
 }
+.profile_img {
+  height: 40px !important;
+  border-radius: 50%;
+}
+.ts-table tr td {
+  min-width: 240px;
+}

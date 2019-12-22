@@ -51,3 +51,23 @@ table td {
   user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
+.ComparisonSlider__Before,
+.ComparisonSlider__After {
+  background: #242b36 !important;
+}
+.progress {
+  width: 160px !important;
+  height: 10px;
+}
+.down-arrow {
+  font-size: 40px !important;
+}
+.fa-whatsapp {
+  font-size: 40px !important;
+  padding-right: 10px;
+  color: #00e676;
+}
+.fa-file-text-o {
+  font-size: 34px !important;
+  padding-right: 10px;
+}
