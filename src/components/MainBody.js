@@ -3,6 +3,7 @@ import '../css/mainbody.css';
 import img1 from '../img/undraw_static_assets_rpm6.svg';
 import ComparisionSlider1 from './ComparisionSlider';
 import 'font-awesome/css/font-awesome.min.css';
+import Resume from './Resume/Resume';
 class MainBody extends React.Component {
   render() {
     return (
@@ -34,7 +35,9 @@ class MainBody extends React.Component {
             &nbsp;+91-8194997428
           </div>
         </div>
-        <div className='row box box2'></div>
+        <div className='row box box2'>
+          <Resume />
+        </div>
         <div className='row box'>
           <div className='col-lg-5  box3'></div>
           <div className='col-lg-7 box4'></div>

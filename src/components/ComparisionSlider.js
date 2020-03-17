@@ -11,7 +11,7 @@ class ComparisonSlide extends React.Component {
       <div class='ComparisonSlider '>
         <div class='ComparisonSlider__Before '>
           <div className='about-me p-4 '>
-            <div className='row p-5 noselect '>
+            <div className='row p-5 pt-md-4 noselect '>
               <div></div>
               <div>
                 <div className='fl-heading' style={{}}>
@@ -55,7 +55,7 @@ class ComparisonSlide extends React.Component {
         </div>
         <div class='ComparisonSlider__After text-dark text-white'>
           <div className='about-me p-4 '>
-            <div className='row p-5 noselect '>
+            <div className='row p-5 pt-md-4 noselect '>
               <div></div>
               <div>
                 <div className='fl-heading' style={{}}>

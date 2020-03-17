@@ -4,14 +4,17 @@
   "private": true,
   "homepage": "https://mohitsinghnegi1.github.io/my-portfolio/",
   "dependencies": {
+    "@progress/kendo-drawing": "^1.6.0",
+    "@progress/kendo-react-pdf": "^3.11.0",
     "bootstrap": "^4.3.1",
     "comparison-slider": "^1.0.1",
     "font-awesome": "^4.7.0",
     "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
+    "node-sass": "^4.13.1",
     "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-scripts": "3.2.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "^3.4.0",
     "typeface-poppins": "0.0.72"
   },
   "scripts": {
