@@ -76,20 +76,16 @@ class Resume extends React.Component {
                         <div class='clear'></div>
                         <ul class='header_menu horizontal_list'>
                           <li>
-                            <a class='no_border ' href='#'>
-                              Competitive coder
-                            </a>
+                            <a class='no_border '>Competitive coder</a>
                           </li>
                           <li>
-                            <a class=' ' href='#'>
-                              Full stack developer
-                            </a>
+                            <a class=' '>Full stack developer</a>
                           </li>
                           <li>
-                            <a href='#'>UI/UX designer</a>
+                            <a>UI/UX designer</a>
                           </li>
                           <li>
-                            <a href='#'>Creative thinker</a>
+                            <a>Creative thinker</a>
                           </li>
                         </ul>
                       </div>
@@ -128,7 +124,7 @@ class Resume extends React.Component {
                       <p class='purple'>Lovely professional University</p>
                       <p className='date'>B.tech Cse &nbsp;(2016 - 2020)</p>
                       <p className='date'>CGPA : &nbsp;9.23</p>
-                      <h2 id='skills'>Technical Skills</h2>
+                      <h2>Technical Skills</h2>
                       <TechnicalSkills />
                       <div class='get_social_content'>
                         <h2>Profiles</h2>

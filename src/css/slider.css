@@ -71,3 +71,30 @@ table td {
   font-size: 34px !important;
   padding-right: 10px;
 }
+.overlay {
+  display: none;
+}
+@media only screen and (max-width: 1200px) {
+  * {
+    overflow: hidden;
+  }
+  .overlay {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    color: teal;
+    padding-top: 200px;
+    position: fixed;
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    z-index: 9999999;
+    background-color: lightblue;
+  }
+}
