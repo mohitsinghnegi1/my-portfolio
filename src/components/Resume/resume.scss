@@ -1,4 +1,4 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome);
+// @import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome);
 
 /* entypo */
 [class*='entypo-']:before {
@@ -12,6 +12,7 @@
 /* Utils */
 #main_container {
   // background-image: url('../../img/dark_wall.png');
+  height: 1626px !important;
   background-color: #474a55;
   // border: 1px solid #fff;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -117,12 +118,12 @@
   h3,
   h4 {
     font-family: 'Lato', Helvetica, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: #48da9b;
   }
   h1 {
     font-size: 48px;
-    font-weight: 300;
+    font-weight: 400;
     margin: 20px 0;
   }
   h2 {
@@ -181,19 +182,20 @@
     margin: 0 auto;
   }
   #header {
-    height: 130px;
+    height: 100px;
     border-bottom: 1px solid #403f44;
   }
   .header_logotype_container {
     width: 260px;
-    height: 130px;
+    height: 100px;
     border-right: 1px solid #403f44;
     float: left;
   }
   .header_menu_container {
-    height: 130px;
+    height: 100px;
     width: 699px;
     float: left;
+    margin-top: -20px;
   }
   .header_menu_container a {
     font-family: 'Lato', Helvetica, sans-serif;
@@ -219,7 +221,7 @@
   .logotype_name {
     text-transform: uppercase;
     font-size: 32px;
-    margin: 43px 0 0;
+    margin: 20px 0 0;
   }
   .logotype_occupation {
     text-transform: uppercase;
@@ -318,18 +320,22 @@
     margin: 0;
   }
   .contact_details_content p.purple {
-    margin-top: 25px;
+    margin-top: 16px;
   }
 
   .send_message_button,
   .special_button {
-    margin-top: 25px;
+    margin-top: 55px;
     display: block;
     background: #48da9b;
     width: 230px;
     height: 50px;
     position: relative;
     z-index: 1;
+  }
+  .send_message_button:hover,
+  .special_button:hover {
+    background: #29c782;
   }
   .cut1:after {
     content: '';
@@ -367,10 +373,6 @@
     bottom: 10px;
     border-top: 1px solid #403f44;
     border-bottom: 1px solid #403f44;
-  }
-  .send_message_button:hover,
-  .special_button:hover {
-    background: #29c782;
   }
 
   .get_social_content {
@@ -456,7 +458,7 @@
     width: 30px;
     height: 20px;
     z-index: 9;
-    background: #474a55;
+    background: #313942;
     transform: rotate(45deg);
   }
   .cut1:after {
@@ -467,7 +469,95 @@
     width: 30px;
     height: 20px;
     z-index: 9;
-    background: #474a55;
+    background: #37404b;
     transform: rotate(45deg);
   }
+
+  .profiles_icons li {
+    color: rgb(61, 58, 65);
+  }
+  .profiles_icons li:before {
+    content: '';
+    position: absolute;
+  }
+  .profiles_icons li p:first-child {
+    color: #837c9a;
+    margin-bottom: 0px !important;
+  }
+  .profiles_icons li div:last-child {
+    margin-bottom: 12px !important;
+  }
+  .profiles_icons li div {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #e4e3e8;
+  }
+  .progress {
+    width: 180px !important;
+    height: 10px;
+    font-family: 'Lato', Helvetica, sans-serif !important;
+  }
+  table {
+    border-collapse: separate;
+  }
+  table tr td:first-child {
+    width: 180px;
+
+    display: block;
+  }
+  .experience {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .bold {
+    font-weight: 500;
+  }
+  .link {
+    color: #48da9b;
+    cursor: pointer;
+  }
+  .font {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  table.gt td {
+    padding-bottom: 10px;
+  }
+  .date {
+    font-size: 12px;
+  }
+  .education tr th {
+    color: #837c9a !important;
+    font-size: 15px !important;
+    font-weight: 600;
+    font-family: 'Lato', Helvetica, sans-serif !important;
+  }
+  .education tr td {
+    font-size: 15px !important;
+    font-family: 'Lato', Helvetica, sans-serif !important;
+  }
+}
+
+.send_message_button {
+  margin-top: 20px;
+  margin-top: 25px;
+  display: block;
+  background: #48da9b;
+  width: 230px;
+  height: 50px;
+  position: relative;
+  z-index: 1;
+}
+.send_message_button:hover {
+  background: #29c782;
+}
+.makeGreen {
+  color: #29c782;
+  font-weight: bolder;
+}
+.fa-heart {
+  color: red;
 }

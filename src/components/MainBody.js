@@ -38,32 +38,38 @@ class MainBody extends React.Component {
         <div className='row box box2'>
           <Resume />
         </div>
-        <div className='row box'>
+        <div className='row box d-none'>
           <div className='col-lg-5  box3'></div>
           <div className='col-lg-7 box4'></div>
         </div>
-        <div className='row box'>
+        <div className='row box d-none'>
           <div className='col-lg-5  box5'></div>
           <div className='col-lg-7 box6'></div>
         </div>
-        <div className='row box'>
+        <div className='row box d-none'>
           <div className='col-lg-5  box7'></div>
           <div className='col-lg-7 box8'></div>
         </div>
-        <div className='row box'>
+        <div className='row box d-none'>
           <div className='col-lg-5  box9'></div>
           <div className='col-lg-7 box10'></div>
         </div>
-        <div className='row box'>
+        <div className='row box d-none'>
           <div className='col-lg-5  box13'></div>
           <div className='col-lg-7 box14'></div>
         </div>
-        <div className='row box'>
+        <div className='row box d-none'>
           <div className='col-lg-5  box11'></div>
           <div className='col-lg-7 box12'></div>
         </div>
         <div className='container bg-white footer'>
-          <footer>Designed by Mohit Singh with Love</footer>
+          <footer>
+            <i className='makeGreen pr-3'>Designed by</i>{' '}
+            <i>
+              Mohit Singh with &nbsp;
+              <i class='fa fa-heart '></i>
+            </i>
+          </footer>
         </div>
       </div>
     );

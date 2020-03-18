@@ -4,6 +4,7 @@ import { PDFExport } from '@progress/kendo-react-pdf';
 import './resume.scss';
 
 import profileimg from '../../img/mohit.jpg';
+import TechnicalSkills from './TechnicalSkills';
 class Resume extends React.Component {
   constructor(props) {
     super(props);
@@ -23,15 +24,16 @@ class Resume extends React.Component {
     return (
       <div className='container-fluid p-0'>
         <div style={{ marginTOp: '-400px' }} className='pullUp'>
-          <div className='application-form-in-app-preview  mr-lg-4 mb-5 container p-3 pl-md-4 p-sm-5 '>
+          <div className='application-form-in-app-preview  mr-lg-5 mb-5 container p-3 pl-md-0 p-sm-5 '>
             <div className='app-form-preview-header row pl-0 pr-3'>
               <div
                 onClick={this.downloadPDF}
-                className='apply-fbtn'
-                style={{ cursor: 'pointer' }}>
+                className='apply-fbtn col-2 float-right m-auto'
+                style={{ marginTop: '-100px!important' }}>
                 Download PDF
               </div>
             </div>
+
             <PDFExport
               forcePageBreak='.page-break'
               ref={(component) => (this.pdfExportComponent = component)}
@@ -50,7 +52,7 @@ class Resume extends React.Component {
                           Mohit&nbsp; <span class='purple'>Singh </span>
                         </h1>
                         <h2 class='logotype_occupation pl-1'>
-                          FullStack Web Developer
+                          Software Developer
                         </h2>
                       </div>
                       {/* <!-- MAIN MENU --> */}
@@ -63,13 +65,15 @@ class Resume extends React.Component {
                             </a>
                           </li>
                           <li>
+                            <a class=' ' href='#'>
+                              FullStack Web Developer
+                            </a>
+                          </li>
+                          <li>
+                            <a href='#'>UI/UX designer</a>
+                          </li>
+                          <li>
                             <a href='#'>Creative Thinker</a>
-                          </li>
-                          <li>
-                            <a href='#'>Responsible</a>
-                          </li>
-                          <li>
-                            <a href='#'>Dedicated</a>
                           </li>
                         </ul>
                       </div>
@@ -86,69 +90,69 @@ class Resume extends React.Component {
                         </div>
                       </div>
                       <div class='hello_content'>
-                        <h2>Hello!</h2>
-                        <p>
-                          I'm passionate about technology and human behavior,
-                          hardworker and a fast-learner with experience in
-                          around 10 different countries studying, working and
-                          volunteering.
-                        </p>
+                        <h2>Personal</h2>
+
+                        {/* <p class='purple mb-0'>Language:</p> */}
+                        {/* <p>English , Hindi</p> */}
                       </div>
                       <div class='contact_details_content'>
-                        <h2>Contact details</h2>
-                        <p class='purple'>Phone:</p>
-                        <p>+34 123 456 789</p>
+                        {/* <h2>Contact details</h2> */}
+                        <p class='purple'>Mobile No:</p>
+                        <p>+81-9008645536</p>
                         <p class='purple'>Email:</p>
-                        <p>jlalovi@gmail.com</p>
-                        <p class='purple'>Adress:</p>
-                        <p>Someplace, 5</p>
-                        <p>Jaén, Spain</p>
-                        <p>23001</p>
+                        <p>mohitsin3232@gmail.com</p>
+                        <p class='purple mb-0'>Data of birth:</p>
+                        <p>21 June 2020</p>
+                        {/* <p class='purple'>Adress:</p>
+                        <p>Sri durga pg for gents</p>
+                        <p>Koramangala I block , Bangaluru</p>
+                        <p>Karnataka , 560034</p> */}
                       </div>
-                      <a
-                        href='mailto:jlalovi@gmail.com'
-                        class='send_message_button'>
-                        <span class='cut1'></span>
-                        <span class='cut2'></span>
-                        <span class='content'>
-                          Send me a message{' '}
-                          <span class='fontawesome-double-angle-right'></span>
-                        </span>
-                      </a>
+                      <h2>Education</h2>
+                      <p class='purple'>Lovely professional University</p>
+                      <p className='date'>B.tech Cse &nbsp;(2016 - 2020)</p>
+                      <p className='date'>CGPA : &nbsp;9.23</p>
+                      <h2>Technical Skills</h2>
+                      <TechnicalSkills />
                       <div class='get_social_content'>
-                        <h2>Get social</h2>
-                        <ul class='social_icons horizontal_list'>
+                        <h2>Profiles</h2>
+                        <ul class='profiles_icons '>
                           <li>
-                            <a
-                              class='facebook'
-                              href='https://www.facebook.com/jlalovi'>
-                              <span class='entypo-facebook-circled'></span>
-                              <span class='invisible'>Facebook</span>
-                            </a>
+                            <p class='purple mb-0'>Leetcode.com</p>
+                            <div>/mohit_11615192</div>
                           </li>
                           <li>
-                            <a
-                              class='twitter'
-                              href='https://twitter.com/jlalovi'>
-                              <span class='entypo-twitter-circled'></span>
-                              <span class='invisible'>Twitter</span>
-                            </a>
+                            <p class='purple mb-0'>Codechef.com</p>
+
+                            <div>/users/mohit_11615192</div>
                           </li>
                           <li>
-                            <a
-                              class='linkedin'
-                              href='https://www.linkedin.com/in/jlalovi/en'>
-                              <span class='entypo-linkedin-circled'></span>
-                              <span class='invisible'>LinkedIn</span>
-                            </a>
+                            <p class='purple mb-0'>Hackerrank.com</p>
+
+                            <div>/mohitsin3232</div>
+                          </li>
+                          {/* <li>
+                            <p class='purple '>Hackerearth.com</p>
+
+                            <div>/@mohit655</div>
+                          </li>
+                          <li>
+                            <p class='purple '>LinkedIn.com</p>
+
+                            <div>/in/mohit-singh-9819a3148</div>
+                          </li> */}
+                          <li>
+                            <p class='purple mb-0'>Github.com</p>
+
+                            <div>/mohitsinghnegi1</div>
                           </li>
                         </ul>
                       </div>
                     </div>
                     {/* <!-- PROFILE CONTENT --> */}
-                    <div id='content_container'>
+                    <div id='content_container' style={{ height: '1460px' }}>
                       <div class='block'>
-                        <h1>Profile</h1>
+                        <h1>About me</h1>
                         <blockquote class='profile_quote'>
                           <p>
                             "I am passionate programmer interested in
@@ -170,17 +174,40 @@ class Resume extends React.Component {
                         </blockquote>
                       </div>
                       <div class='block'>
-                        <h2>A few words about me</h2>
-                        <p>
-                          Until now, in my life, I change from active moments
-                          with a lot of variety, challenges and improvisations,
-                          to moments of tranquility and stability, being
-                          difficult to stay in a place during a long time. I
-                          consider myself a tolerant and respectful person with
-                          open mind and quite honest. I really like to listen
-                          people stories and backgrounds and their different
-                          experiences around the world.
-                        </p>
+                        <h2>Experience</h2>
+                        <table className='experience gt'>
+                          <th></th>
+                          <th></th>
+                          <tr>
+                            <td>
+                              <div className='bold'>Software Engineer</div>
+                              <div className='date'>June 2019 - Present</div>
+                            </td>
+                            <td>
+                              <div className='bold'>
+                                Leadsquared - Marketxpenders
+                              </div>
+                              <div>
+                                worked as a full stack developer.developed
+                                various portals using react framework , Restful
+                                API’s and Leadsquared CRM
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div className='bold'>Graphic designer</div>
+                              <div className='date'>Jan 2019 - Mar 2019</div>
+                            </td>
+                            <td>
+                              <div className='bold'>Redjee Software labs</div>
+                              <div>
+                                worked as a graphic designer, created
+                                banners,posters logo,infographic images.
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
                       </div>
                       <div class='horizontal_line'>
                         <div class='line_left'></div>
@@ -190,30 +217,98 @@ class Resume extends React.Component {
                         <div class='line_right'></div>
                       </div>
                       <div class='block'>
-                        <h2>Philosophy</h2>
-                        <p>
-                          I belive in ethic and moral not in imposed rules that
-                          you "have to" do or follow.
-                        </p>
-                        <div class='philosophy_content'>
-                          <p>
-                            I believe life is made from different shades of
-                            grey, not from black and white. Furthermore, as a
-                            human being with rationality, I think it is our duty
-                            to take care of the world and treat others as one
-                            would like others to treat oneself. This way of
-                            perceiving reality affects my beliefs and my way of
-                            behaving. Summarizing on several points:
-                          </p>
-                          <ul>
-                            <li>Pragmatic</li>
-                            <li>Honest</li>
-                            <li>Respectful</li>
-                            <li>Open-minded</li>
-                            <li>Coherent</li>
-                          </ul>
-                          <div class='clear'></div>
-                        </div>
+                        <h2>Projects</h2>
+                        <table className='experience gt'>
+                          <th></th>
+                          <th></th>
+                          <tr>
+                            <td>
+                              <div className='bold'>KIIT University</div>
+                              <div className='date'>Jan - 2020- March 2020</div>
+                            </td>
+                            <td>
+                              <div>
+                                <span className='bold'>Production link - </span>
+
+                                <a
+                                  href='https://international.kiit.ac.in'
+                                  className='link'>
+                                  International.kiit.ac.in
+                                </a>
+                              </div>
+                              <div>
+                                CRM Solution for Educational University which
+                                allows student to enroll for various courses and
+                                view/search their application history through
+                                dashboard . Automated email will be send to the
+                                student/ Admin based on activity . An Automated
+                                Offer letter gets generated after background
+                                verification.
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div className='bold'>Referral portal</div>
+                              <div className='date'>Nov - 2019 - Jan 2020</div>
+                            </td>
+                            <td>
+                              <div>
+                                <span className='bold'>Production link - </span>
+
+                                <a
+                                  href='https://lsqestates.lsqportal.com'
+                                  className='link'>
+                                  Lsqestates.lsqportal.com
+                                </a>
+                              </div>
+                              <div>
+                                portal that allows the authentic user to
+                                register themselves as an Agent and refer lead
+                                for the organisation
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div className='bold'>Money lending portal</div>
+                              <div className='date'>Oct 2019 - Nov 2020</div>
+                            </td>
+                            <td>
+                              <div>
+                                <span className='bold'>Production link - </span>
+
+                                <a
+                                  href='https://lendingdemo1.lsqportal.com/'
+                                  className='link'>
+                                  Lendingdemo1.lsqportal.com
+                                </a>
+                              </div>
+                              <div>
+                                money lending portal to get an instant loan.
+                                technologies used: reactjs,bootstrap,rest
+                                API,CRM
+                              </div>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <div className='bold'>External Sorting</div>
+                              <div className='date'>
+                                March 2020 - March 2020
+                              </div>
+                            </td>
+                            <td>
+                              <div>
+                                Implemnted external sorting using python . This
+                                algorithm works when the data to be sorted does
+                                not fit into the RAM and instead they resides in
+                                the slower external memory.
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
                       </div>
                       <div class='horizontal_line'>
                         <div class='line_left'></div>
@@ -223,31 +318,91 @@ class Resume extends React.Component {
                         <div class='line_right'></div>
                       </div>
                       <div class='last block'>
-                        <h2>Interests & Hobbies</h2>
-                        <p>
-                          I'm passionate about technology and human behavior,
-                          both determine almost all my interests and hobbies:
-                        </p>
-                        <ul>
-                          <li>Visiting new places</li>
-                          <li>Meeting people</li>
-                          <li>Having new experiences</li>
-                          <li>Hiking and Biking</li>
-                          <li>Web Developing</li>
-                          <li>Computer Gamming</li>
-                          <li>Manga and Anime</li>
-                        </ul>
+                        <h2>Achievements</h2>
+                        <table className='experience gt'>
+                          <th></th>
+                          <th></th>
+                          <tr>
+                            <td>
+                              <div className='bold'>Leadsquared Award</div>
+                              <div className='date'>June 2019 - Dec 2019</div>
+                            </td>
+                            <td>
+                              <div>
+                                <span className='bold'>
+                                  Star of the quater award{' '}
+                                </span>
+                              </div>
+                              <div>
+                                Achieved <b>Star of the quater</b> award for a
+                                best Performer in Portal Development .
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div className='bold'>PI-A-Thon Hackathone</div>
+                              <div className='date'>May 2018</div>
+                            </td>
+                            <td>
+                              <div>
+                                Participated in this hackathone and Secured
+                                first position - Assisted and Collaburated on
+                                project crowd analysis .<br />
+                                Worked on technolgies such as Python , Bootstrap
+                                , Php, mysql
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div className='bold'>
+                                Competitive programming
+                              </div>
+                              <div className='date'>Oct 2018 - Present</div>
+                            </td>
+                            <td>
+                              <div>100+ days of continous coding .</div>
+                              <div>
+                                Solved over 1200 programming questions on
+                                various platform .
+                              </div>
+                              <div>
+                                Ranked top 1 among all student of my university
+                                in stop stalk
+                              </div>
+                              <div>4 star coder at codechef .</div>
+                              <div>
+                                Secured 289 rank in December challenge 2018 and
+                                188 rank in October challenge 2019 division 2 in
+                                Codechef
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
                       </div>
                     </div>
                     <div class='clear'></div>
                     {/* <!-- FOOTER --> */}
                     <div id='footer'>
-                      <p class='footer_name'>Mohit Singh Negi CV 2020</p>
+                      {/* <p class='footer_name'>Mohit Singh Negi CV 2020</p> */}
                     </div>
                   </div>
                 </div>
               </div>
             </PDFExport>
+            <div className='resume'>
+              <a
+                href='mailto:mohitsin3232@gmail.com'
+                class='send_message_button'>
+                <span class='cut1'></span>
+                <span class='cut2'></span>
+                <span class='content'>
+                  Send me a message{' '}
+                  <span class='fontawesome-double-angle-right'></span>
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
