@@ -187,16 +187,16 @@ class SideMenu extends React.Component {
           <div>
             <ul className='menu mt-5'>
               <li>
-                <a href='#'>INTRO</a>
+                <a href='#intro'>INTRO</a>
               </li>
               <li>
-                <a href='#'>Skills</a>
+                <a href='#skills'>Skills</a>
               </li>
               <li>
-                <a href='#'>Projects</a>
+                <a href='#projects'>Projects</a>
               </li>
               <li>
-                <a href='#'>Experience</a>
+                <a href='#experience'>Experience</a>
               </li>
             </ul>
           </div>

@@ -128,7 +128,7 @@ class Resume extends React.Component {
                       <p class='purple'>Lovely professional University</p>
                       <p className='date'>B.tech Cse &nbsp;(2016 - 2020)</p>
                       <p className='date'>CGPA : &nbsp;9.23</p>
-                      <h2>Technical Skills</h2>
+                      <h2 id='skills'>Technical Skills</h2>
                       <TechnicalSkills />
                       <div class='get_social_content'>
                         <h2>Profiles</h2>
@@ -167,7 +167,7 @@ class Resume extends React.Component {
                     </div>
                     {/* <!-- PROFILE CONTENT --> */}
                     <div id='content_container' style={{ height: '1460px' }}>
-                      <div class='block'>
+                      <div class='block' id='intro'>
                         <h1>About me</h1>
                         <blockquote class='profile_quote'>
                           <p>
@@ -189,7 +189,7 @@ class Resume extends React.Component {
                           {/* <span class='entypo-quote'></span> */}
                         </blockquote>
                       </div>
-                      <div class='block'>
+                      <div class='block' id='experience'>
                         <h2>Experience</h2>
                         <table className='experience gt'>
                           <th></th>
@@ -232,7 +232,7 @@ class Resume extends React.Component {
                         <div class='right_circle'></div>
                         <div class='line_right'></div>
                       </div>
-                      <div class='block'>
+                      <div class='block' id='projects'>
                         <h2>Projects</h2>
                         <table className='experience gt'>
                           <th></th>
