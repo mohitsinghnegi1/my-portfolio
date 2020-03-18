@@ -342,27 +342,27 @@ class Resume extends React.Component {
                             <td>
                               <div>
                                 <span className='bold'>
-                                  Star of the quater award{' '}
+                                  Star of the quarter award{' '}
                                 </span>
                               </div>
                               <div>
-                                Achieved <b>Star of the quater</b> award for a
+                                Achieved <b>Star of the quarter</b> award for a
                                 best Performer in Portal Development .
                               </div>
                             </td>
                           </tr>
                           <tr>
                             <td>
-                              <div className='bold'>PI-A-Thon Hackathone</div>
+                              <div className='bold'>PI-A-Thon Hackathon</div>
                               <div className='date'>May 2018</div>
                             </td>
                             <td>
                               <div>
-                                Participated in this hackathone and Secured
-                                first position - Assisted and Collaburated on
-                                project crowd analysis .<br />
-                                Worked on technolgies such as Python , Bootstrap
-                                , Php, mysql
+                                Participated in this hackathon and Secured first
+                                position - Assisted and Collaborated on project
+                                crowd analysis .<br />
+                                Worked on technologies such as Python ,
+                                Bootstrap , Php, mysql
                               </div>
                             </td>
                           </tr>
@@ -374,7 +374,7 @@ class Resume extends React.Component {
                               <div className='date'>Oct 2018 - Present</div>
                             </td>
                             <td>
-                              <div>100+ days of continous coding .</div>
+                              <div>100+ days of continuous coding .</div>
                               <div>
                                 Solved over 1200 programming questions on
                                 various platform .
