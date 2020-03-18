@@ -1,5 +1,11 @@
 import React from 'react';
 import $ from 'jquery';
+import hackerrank from '../img/hackerrank.png';
+import hackerearth from '../img/hackerearth.png';
+import leetcode from '../img/leetcode.PNG';
+import github from '../img/github.png';
+import linkedin from '../img/linkedin.png';
+import codechef from '../img/codechef.png';
 class SideMenu extends React.Component {
   constructor(props) {
     super(props);
@@ -24,35 +30,21 @@ class SideMenu extends React.Component {
             <span class='hr__hamburger__inner'></span>
           </div>
         </div>
-        <div className='menu-container ' ref={this.menucontainer}>
+        <div className='menu-container pr-5 ' ref={this.menucontainer}>
           <ul>
             <li className='menu-item'>
               <a href='#' className='heading'>
                 INTRO
               </a>
-            </li>
-            <li className='menu-item'>
-              <a href='#' className='heading'>
-                SKILLS
-              </a>
-              <ul className='sub-menu'>
+              <ul className='sub-menu pr-5'>
                 <li>
                   <a href='#'>
-                    Officia quis amet non commodo magna occaecat .{' '}
-                  </a>
-                </li>
-                <li>
-                  <a href='#'>
-                    {' '}
-                    Excepteur id qui magna et nisi nisi ea proident .
-                  </a>
-                </li>
-                <li>
-                  <a href='#'>Sit ut voluptate esse laboris irure non ut .</a>
-                </li>
-                <li>
-                  <a href='#'>
-                    Magna minim ut minim mollit voluptate cupidatat .
+                    I am a Competitive coder and a Software developer with more
+                    than 1 years of experience in full stack developement using
+                    latest technologies like reactjs ,redux ,context api
+                    ,bootstrap ,python. I'm motivated, result-focused and
+                    seeking a successful team-oriented company with opportunity
+                    to grow.{' '}
                   </a>
                 </li>
               </ul>
@@ -64,45 +56,96 @@ class SideMenu extends React.Component {
               </a>
               <ul className='sub-menu'>
                 <li>
-                  <a href='#'>
-                    Nulla non ut cillum enim magna id labore reprehenderit.
+                  <a href='https://kiit.lsqportal.com/'>
+                    <i class='fa fa-link'></i>&nbsp;Kalinga Institute of
+                    Technology.
                   </a>
                 </li>
                 <li>
-                  <a href='#'>
-                    Velit proident sint mollit voluptate ad eiusmod ullamco et
-                    elit.
+                  <a href='http://lendingdemo1.lsqportal.com/'>
+                    <i class='fa fa-link'></i>&nbsp;LSQ Money
                   </a>
                 </li>
                 <li>
-                  <a href='#'>Amet dolor qui ullamco nostrud sunt eu dolore.</a>
+                  <a href='http://lsqestates.lsqportal.com/'>
+                    <i class='fa fa-link'></i>&nbsp;LSQ Estates
+                  </a>
                 </li>
                 <li>
-                  <a href='#'>
-                    Incididunt aliquip cupidatat adipisicing cupidatat eiusmod
+                  <a href='https://edudemo4.lsqportal.com/'>
+                    <i class='fa fa-link'></i>&nbsp;LSQ University
+                  </a>
+                </li>
+                <li>
+                  <a href='https://edudemo2.lsqportal.com/'>
+                    <i class='fa fa-link'></i>&nbsp;Flame University
+                  </a>
+                </li>
+                <li>
+                  <a href='http://edudemo1.lsqportal.com/'>
+                    <i class='fa fa-link'></i>&nbsp;LSQ University
                   </a>
                 </li>
               </ul>
             </li>
             <li className='menu-item'>
               <a href='#' className='heading'>
-                WORK EXPERIENCE
+                Profiles
               </a>
-              <ul className='sub-menu'>
+              <ul className='sub-menu d-flex justify-content-between profiles w-75'>
                 <li>
-                  <a href='#'>
-                    Dolore sunt nulla et ullamco laboris amet sint consectetur
-                    nisi est commodo officia eu culpa.
-                  </a>
+                  <img
+                    src={hackerrank}
+                    style={{ height: '46px', width: '46px' }}
+                    alt='hackerrank'
+                  />
                 </li>
                 <li>
-                  <a href='#'>Et enim velit aliquip officia nulla.</a>
+                  <img
+                    src={hackerearth}
+                    style={{
+                      height: '46px',
+                      width: '46px',
+                      borderRadius: '50%'
+                    }}
+                    alt='hackerrank'
+                  />
                 </li>
                 <li>
-                  <a href='#'>
-                    Deserunt voluptate ex duis nulla.Velit occaecat nulla mollit
-                    amet ad cillum occaecat.
-                  </a>
+                  <img
+                    src={leetcode}
+                    style={{ height: '46px' }}
+                    alt='leetcode'
+                  />
+                </li>
+                <li>
+                  <img
+                    src={codechef}
+                    style={{
+                      height: '46px',
+                      background: '#fff',
+                      borderRadius: '50%'
+                    }}
+                    alt='codechef'
+                  />
+                </li>
+                <li>
+                  <img
+                    src={github}
+                    style={{ height: '46px', width: '46px' }}
+                    alt='github'
+                  />
+                </li>
+                <li>
+                  <img
+                    src={linkedin}
+                    style={{
+                      height: '46px',
+                      width: '46px',
+                      borderRadius: '50%'
+                    }}
+                    alt='linkedin'
+                  />
                 </li>
               </ul>
             </li>

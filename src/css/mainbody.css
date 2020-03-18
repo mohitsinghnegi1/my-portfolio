@@ -28,7 +28,7 @@ body {
   min-height: 110px;
   background: #fff;
 }
-.resb:nth-of-type(2) {
+.resb:nth-of-type(1) {
   background-color: #1ba94c;
   color: #fff;
   text-overflow: ellipsis;
@@ -36,7 +36,7 @@ body {
   text-align: left;
   font-size: 15px;
 }
-.resb:nth-of-type(3) {
+.resb:nth-of-type(2) {
   background-color: #141a24;
 
   text-align: left;
@@ -99,4 +99,7 @@ footer {
 }
 .ts-table tr td {
   min-width: 240px;
+}
+.profiles li {
+  cursor: pointer !important;
 }

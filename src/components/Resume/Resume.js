@@ -23,17 +23,33 @@ class Resume extends React.Component {
   render() {
     return (
       <div className='container-fluid p-0'>
+        <div className='row dl-r '>
+          <a
+            href='#move'
+            className='col-lg-1 resb offset-lg-5 '
+            style={{
+              backgroundColor: '#ffc107',
+              color: '#fff',
+              cursor: 'pointer'
+            }}>
+            <i class='fa fa-3x fa-arrow-circle-o-down' aria-hidden='true'></i>
+          </a>
+          <div
+            className=' col-lg-3 resb '
+            onClick={this.downloadPDF}
+            style={{ cursor: 'pointer' }}>
+            <i class='fa  fa-file-text-o' aria-hidden='true'></i>
+            &nbsp;Download Resume
+          </div>
+          <div className=' col-lg-3 resb '>
+            <i class='fa fa-whatsapp' aria-hidden='true'></i>
+            &nbsp;+91-8194997428
+          </div>
+        </div>
         <div style={{ marginTOp: '-400px' }} className='pullUp'>
-          <div className='application-form-in-app-preview  mr-lg-5 mb-5 container p-3 pl-md-0 p-sm-5 '>
-            <div className='app-form-preview-header row pl-0 pr-3'>
-              <div
-                onClick={this.downloadPDF}
-                className='apply-fbtn col-2 float-right m-auto'
-                style={{ marginTop: '-100px!important' }}>
-                Download PDF
-              </div>
-            </div>
-
+          <div
+            id='move'
+            className='application-form-in-app-preview  mr-lg-5 mb-5 container p-3 pl-md-0 p-sm-5 '>
             <PDFExport
               forcePageBreak='.page-break'
               ref={(component) => (this.pdfExportComponent = component)}
@@ -61,19 +77,19 @@ class Resume extends React.Component {
                         <ul class='header_menu horizontal_list'>
                           <li>
                             <a class='no_border ' href='#'>
-                              Competitive Coder
+                              Competitive coder
                             </a>
                           </li>
                           <li>
                             <a class=' ' href='#'>
-                              FullStack Web Developer
+                              Full stack developer
                             </a>
                           </li>
                           <li>
                             <a href='#'>UI/UX designer</a>
                           </li>
                           <li>
-                            <a href='#'>Creative Thinker</a>
+                            <a href='#'>Creative thinker</a>
                           </li>
                         </ul>
                       </div>
@@ -155,11 +171,11 @@ class Resume extends React.Component {
                         <h1>About me</h1>
                         <blockquote class='profile_quote'>
                           <p>
-                            "I am passionate programmer interested in
-                            competitive programming and full stack developmnet
-                            .Android app development and UI/UX designing are
-                            some other fields that interests me the most . I
-                            believe in practical work rather then theoretical."
+                            " I am passionate programmer interested in
+                            competitive programming and full stack development .
+                            Android app development and UI/UX designing are some
+                            other fields that interests me the most . I believe
+                            in practical work rather then theoretical. "
                             <i
                               class='fa fa-quote-right fa-3x'
                               style={{
@@ -188,9 +204,9 @@ class Resume extends React.Component {
                                 Leadsquared - Marketxpenders
                               </div>
                               <div>
-                                worked as a full stack developer.developed
+                                worked as a Software developer intern .developed
                                 various portals using react framework , Restful
-                                API’s and Leadsquared CRM
+                                API’s and Leadsquared CRM .
                               </div>
                             </td>
                           </tr>
@@ -271,7 +287,7 @@ class Resume extends React.Component {
                           </tr>
                           <tr>
                             <td>
-                              <div className='bold'>Money lending portal</div>
+                              <div className='bold'>LSQ Money</div>
                               <div className='date'>Oct 2019 - Nov 2020</div>
                             </td>
                             <td>
@@ -285,9 +301,9 @@ class Resume extends React.Component {
                                 </a>
                               </div>
                               <div>
-                                money lending portal to get an instant loan.
-                                technologies used: reactjs,bootstrap,rest
-                                API,CRM
+                                LSQ Money is an online platform which connects
+                                borrowers and lender for loan. technologies
+                                used: reactjs,bootstrap,rest API,CRM
                               </div>
                             </td>
                           </tr>
