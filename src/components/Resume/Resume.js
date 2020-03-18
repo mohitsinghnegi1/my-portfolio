@@ -313,7 +313,7 @@ class Resume extends React.Component {
                             </td>
                             <td>
                               <div>
-                                Implemnted external sorting using python . This
+                                Implemented external sorting using python . This
                                 algorithm works when the data to be sorted does
                                 not fit into the RAM and instead they resides in
                                 the slower external memory.
