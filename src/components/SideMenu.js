@@ -56,33 +56,33 @@ class SideMenu extends React.Component {
               </a>
               <ul className='sub-menu'>
                 <li>
-                  <a href='https://kiit.lsqportal.com/'>
+                  <a href='https://kiit.lsqportal.com/' target='_blank'>
                     <i class='fa fa-link'></i>&nbsp;Kalinga Institute of
                     Technology.
                   </a>
                 </li>
                 <li>
-                  <a href='http://lendingdemo1.lsqportal.com/'>
+                  <a href='http://lendingdemo1.lsqportal.com/' target='_blank'>
                     <i class='fa fa-link'></i>&nbsp;LSQ Money
                   </a>
                 </li>
                 <li>
-                  <a href='http://lsqestates.lsqportal.com/'>
+                  <a href='http://lsqestates.lsqportal.com/' target='_blank'>
                     <i class='fa fa-link'></i>&nbsp;LSQ Estates
                   </a>
                 </li>
                 <li>
-                  <a href='https://edudemo4.lsqportal.com/'>
+                  <a href='https://edudemo4.lsqportal.com/' target='_blank'>
                     <i class='fa fa-link'></i>&nbsp;LSQ University
                   </a>
                 </li>
                 <li>
-                  <a href='https://edudemo2.lsqportal.com/'>
+                  <a href='https://edudemo2.lsqportal.com/' target='_blank'>
                     <i class='fa fa-link'></i>&nbsp;Flame University
                   </a>
                 </li>
                 <li>
-                  <a href='http://edudemo1.lsqportal.com/'>
+                  <a href='http://edudemo1.lsqportal.com/' target='_blank'>
                     <i class='fa fa-link'></i>&nbsp;LSQ University
                   </a>
                 </li>
@@ -94,58 +94,90 @@ class SideMenu extends React.Component {
               </a>
               <ul className='sub-menu d-flex justify-content-between profiles w-75'>
                 <li>
-                  <img
-                    src={hackerrank}
-                    style={{ height: '46px', width: '46px' }}
-                    alt='hackerrank'
-                  />
+                  <a
+                    href='https://www.hackerrank.com/mohitsin3232?hr_r=1'
+                    target='_blank'>
+                    <img
+                      src={hackerrank}
+                      style={{ height: '46px', width: '46px' }}
+                      alt='hackerrank'
+                    />
+                  </a>
                 </li>
                 <li>
-                  <img
-                    src={hackerearth}
-                    style={{
-                      height: '46px',
-                      width: '46px',
-                      borderRadius: '50%'
-                    }}
-                    alt='hackerrank'
-                  />
+                  <a
+                    href='https://www.hackerearth.com/@mohit655'
+                    target='_blank'>
+                    <img
+                      src={hackerearth}
+                      style={{
+                        height: '46px',
+                        width: '46px',
+                        borderRadius: '50%',
+
+                        boxShadow:
+                          '0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)'
+                      }}
+                      alt='hackerrank'
+                    />
+                  </a>
                 </li>
                 <li>
-                  <img
-                    src={leetcode}
-                    style={{ height: '46px' }}
-                    alt='leetcode'
-                  />
+                  <a
+                    href='https://leetcode.com/mohit_11615192/'
+                    target='_blank'>
+                    <img
+                      src={leetcode}
+                      style={{ height: '46px' }}
+                      alt='leetcode'
+                    />
+                  </a>
                 </li>
                 <li>
-                  <img
-                    src={codechef}
-                    style={{
-                      height: '46px',
-                      background: '#fff',
-                      borderRadius: '50%'
-                    }}
-                    alt='codechef'
-                  />
+                  <a
+                    href='https://www.codechef.com/users/mohit_11615192'
+                    target='_blank'>
+                    <img
+                      src={codechef}
+                      style={{
+                        height: '46px',
+                        background: '#fff',
+                        borderRadius: '50%',
+                        boxShadow:
+                          '0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)'
+                      }}
+                      alt='codechef'
+                    />
+                  </a>
                 </li>
                 <li>
-                  <img
-                    src={github}
-                    style={{ height: '46px', width: '46px' }}
-                    alt='github'
-                  />
+                  <a href='https://github.com/mohitsinghnegi1' target='_blank'>
+                    <img
+                      src={github}
+                      style={{
+                        height: '46px',
+                        width: '46px'
+                      }}
+                      alt='github'
+                    />
+                  </a>
                 </li>
                 <li>
-                  <img
-                    src={linkedin}
-                    style={{
-                      height: '46px',
-                      width: '46px',
-                      borderRadius: '50%'
-                    }}
-                    alt='linkedin'
-                  />
+                  <a
+                    href='https://www.linkedin.com/in/mohit-singh-9819a3148/'
+                    target='_blank'>
+                    <img
+                      src={linkedin}
+                      style={{
+                        height: '46px',
+                        width: '46px',
+                        boxShadow:
+                          '0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)',
+                        borderRadius: '50%'
+                      }}
+                      alt='linkedin'
+                    />
+                  </a>
                 </li>
               </ul>
             </li>
