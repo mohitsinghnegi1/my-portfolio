@@ -30,7 +30,8 @@
     clear: both;
   }
   .purple {
-    color: #837c9a;
+    color: #c7bee9;
+    font-weight: bolder;
   }
 
   .block {
@@ -426,7 +427,16 @@
   }
   .profile_quote p {
     font-size: 17px;
-    width: 455px;
+    width: 555px;
+  }
+  .fa-quote-right:before {
+    position: absolute;
+    left: 26px;
+  }
+  .resume #content_container {
+    width: 736px !important;
+    border-left: 1px solid #403f44;
+    float: left;
   }
   .profile_quote .entypo-quote {
     color: #3d3a41;
@@ -481,7 +491,7 @@
     position: absolute;
   }
   .profiles_icons li p:first-child {
-    color: #837c9a;
+    color: #b5a1fc;
     margin-bottom: 0px !important;
   }
   .profiles_icons li div:last-child {
@@ -530,7 +540,7 @@
     font-size: 12px;
   }
   .education tr th {
-    color: #837c9a !important;
+    color: #b5a1fc !important;
     font-size: 15px !important;
     font-weight: 600;
     font-family: 'Lato', Helvetica, sans-serif !important;
@@ -560,4 +570,22 @@
 }
 .fa-heart {
   color: red;
+}
+.resume #content_container {
+  width: 736px !important;
+}
+.title1 {
+  color: #c7bee9;
+  font-weight: bolder;
+  font-size: 1.13em;
+}
+.resume h1,
+.resume h2,
+.resume h3,
+.resume h4 {
+  margin-top: 0px !important;
+  margin-bottom: 6px;
+}
+.resume .horizontal_line {
+  margin-top: 10px !important;
 }

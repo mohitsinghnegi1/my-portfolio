@@ -30,7 +30,7 @@ class Resume extends React.Component {
             style={{
               backgroundColor: '#ffc107',
               color: '#fff',
-              cursor: 'pointer'
+              cursor: 'pointer',
             }}>
             <i class='fa fa-3x fa-arrow-circle-o-down' aria-hidden='true'></i>
           </a>
@@ -55,9 +55,11 @@ class Resume extends React.Component {
               ref={(component) => (this.pdfExportComponent = component)}
               paperSize='A4'
               scale={0.5}
-              margin='0.1cm'
+              margin='0.07cm'
               fileName='mohitsinghnegi'>
-              <div id='main_container' className=' mt-4   p-3 container resume'>
+              <div
+                id='main_container'
+                className=' mt-4    pl-5 pr-5  pt-4 container resume'>
                 <div>
                   <div>
                     {/* <!-- HEADER --> */}
@@ -121,8 +123,8 @@ class Resume extends React.Component {
                         <p>Karnataka , 560034</p> */}
                       </div>
                       <h2>Education</h2>
-                      <p class='purple'>Lovely professional University</p>
-                      <p className='date'>B.tech Cse &nbsp;(2016 - 2020)</p>
+                      <p class='purple'>Lovely Professional University</p>
+                      <p className='date'>B.Tech Cse &nbsp;(2016 - 2020)</p>
                       <p className='date'>CGPA : &nbsp;9.23</p>
                       <h2>Technical Skills</h2>
                       <TechnicalSkills />
@@ -168,22 +170,108 @@ class Resume extends React.Component {
                         <blockquote class='profile_quote'>
                           <p>
                             " I am passionate programmer interested in
-                            competitive programming and full stack development .
+                            competitive programming and full stack development.
                             Android app development and UI/UX designing are some
-                            other fields that interests me the most . I believe
-                            in practical work rather then theoretical. "
+                            other fields that interests me the most. I believe
+                            in practical work rather than theoretical. "
                             <i
                               class='fa fa-quote-right fa-3x'
                               style={{
                                 position: 'absolute',
                                 right: '40px',
                                 top: '25px',
-                                color: '#3d3a41'
+                                color: '#3d3a41',
                               }}
                               aria-hidden='true'></i>
                           </p>
                           {/* <span class='entypo-quote'></span> */}
                         </blockquote>
+                      </div>
+
+                      <div class=' block mt-0'>
+                        <h2>Achievements</h2>
+                        <table className='experience gt'>
+                          <th></th>
+                          <th></th>
+                          <tr>
+                            <td>
+                              <div className='bold title1'>
+                                Leadsquared award
+                              </div>
+                              <div className='date'>June 2019 - Dec 2019</div>
+                            </td>
+                            <td>
+                              <div>
+                                <span className='bold title1'>
+                                  Star of the quarter award{' '}
+                                </span>
+                              </div>
+                              <div>
+                                Rewarded with Star of the quarter award for
+                                excellence ownernership and accountability on
+                                10+ projects that I delivered during internship.
+                              </div>
+                              <div>
+                                Grabbed an opportunity of Internship at
+                                leadsquared as a software developer intern and
+                                also got a PPO offer from same company{' '}
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div className='bold title1'>
+                                Pi-a-thon hackathon
+                              </div>
+                              <div className='date'>May 2018</div>
+                            </td>
+                            <td>
+                              <div>
+                                Secured <b>first position</b> in Pi-a-thon
+                                hackathone- Assisted and collaborated on project
+                                named as crowd analysis.
+                                <br />
+                                Worked on technologies such as Python,
+                                Bootstrap, Php, mysql.
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div className='bold title1'>
+                                Competitive programming
+                              </div>
+                              <div className='date'>Oct 2018 - Present</div>
+                            </td>
+                            <td>
+                              <div>
+                                Ranked top 1 among all student of my university
+                                in stop stalk
+                              </div>
+                              <div>
+                                Secured 289 rank in December challenge 2018 and
+                                161 rank in October challenge 2019 division 2 in
+                                Codechef
+                              </div>
+                              <div>
+                                Solved over 1200 programming questions on
+                                various platform.
+                              </div>
+
+                              <div>
+                                4 star coder at codechef. Participated in more
+                                then 40 hackathones.
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                      <div class='horizontal_line'>
+                        <div class='line_left'></div>
+                        <div class='left_circle'></div>
+                        <div class='central_circle'></div>
+                        <div class='right_circle'></div>
+                        <div class='line_right'></div>
                       </div>
                       <div class='block' id='experience'>
                         <h2>Experience</h2>
@@ -192,30 +280,42 @@ class Resume extends React.Component {
                           <th></th>
                           <tr>
                             <td>
-                              <div className='bold'>Software Engineer</div>
+                              <div className='bold title1'>
+                                Software Development Intern
+                              </div>
                               <div className='date'>June 2019 - Present</div>
                             </td>
                             <td>
-                              <div className='bold'>
+                              <div className='bold title1'>
                                 Leadsquared - Marketxpenders
                               </div>
                               <div>
-                                worked as a Software developer intern .developed
-                                various portals using react framework , Restful
-                                API’s and Leadsquared CRM .
+                                Worked as a Software development intern.
+                                Successfully delivered 10+ portals for clients
+                                like DevBhoomi , ISBR , KIIT during this
+                                internship.
+                                <br />
+                                <b>Technologies used</b> : React framework,
+                                Bootstrap Restful API and Leadsquared CRM.
                               </div>
                             </td>
                           </tr>
                           <tr>
                             <td>
-                              <div className='bold'>Graphic designer</div>
+                              <div className='bold title1'>
+                                Graphic designer
+                              </div>
                               <div className='date'>Jan 2019 - Mar 2019</div>
                             </td>
                             <td>
-                              <div className='bold'>Redjee Software labs</div>
+                              <div className='bold title1'>
+                                Redjee Software labs
+                              </div>
                               <div>
-                                worked as a graphic designer, created
-                                banners,posters logo,infographic images.
+                                Worked as a graphic designer, created banners,
+                                posters logo, infographic images. <br />
+                                <b>Tools used :</b> Html5, Css3, Photoshop and
+                                AdobeXD
                               </div>
                             </td>
                           </tr>
@@ -235,7 +335,7 @@ class Resume extends React.Component {
                           <th></th>
                           <tr>
                             <td>
-                              <div className='bold'>KIIT University</div>
+                              <div className='bold title1'>KIIT University</div>
                               <div className='date'>Jan - 2020- March 2020</div>
                             </td>
                             <td>
@@ -252,8 +352,8 @@ class Resume extends React.Component {
                                 CRM Solution for Educational University which
                                 allows student to enroll for various courses and
                                 view/search their application history through
-                                dashboard . Automated email will be send to the
-                                student/ Admin based on activity . An Automated
+                                dashboard. Automated email will be send to the
+                                student/ Admin based on activity. An Automated
                                 Offer letter gets generated after background
                                 verification.
                               </div>
@@ -261,7 +361,7 @@ class Resume extends React.Component {
                           </tr>
                           <tr>
                             <td>
-                              <div className='bold'>Referral portal</div>
+                              <div className='bold title1'>Referral portal</div>
                               <div className='date'>Nov - 2019 - Jan 2020</div>
                             </td>
                             <td>
@@ -275,16 +375,18 @@ class Resume extends React.Component {
                                 </a>
                               </div>
                               <div>
-                                portal that allows the authentic user to
-                                register themselves as an Agent and refer lead
-                                for the organisation
+                                Built an online platform from scratch to help
+                                double fold first to help agents refer leads to
+                                the organisation secondly to help the
+                                organisation to identify the lead source for
+                                rewards.
                               </div>
                             </td>
                           </tr>
                           <tr>
                             <td>
-                              <div className='bold'>LSQ Money</div>
-                              <div className='date'>Oct 2019 - Nov 2020</div>
+                              <div className='bold title1'>LSQ Money</div>
+                              <div className='date'>Oct 2019 - Nov 2019</div>
                             </td>
                             <td>
                               <div>
@@ -298,96 +400,28 @@ class Resume extends React.Component {
                               </div>
                               <div>
                                 LSQ Money is an online platform which connects
-                                borrowers and lender for loan. technologies
-                                used: reactjs,bootstrap,rest API,CRM
+                                borrowers and lender for loan. Technologies
+                                used: reactjs, bootstrap, rest API, CRM
                               </div>
                             </td>
                           </tr>
 
                           <tr>
                             <td>
-                              <div className='bold'>External Sorting</div>
+                              <div className='bold title1'>
+                                External Sorting
+                              </div>
                               <div className='date'>
                                 March 2020 - March 2020
                               </div>
                             </td>
                             <td>
                               <div>
-                                Implemented external sorting using python . This
-                                algorithm works when the data to be sorted does
-                                not fit into the RAM and instead they resides in
-                                the slower external memory.
-                              </div>
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
-                      <div class='horizontal_line'>
-                        <div class='line_left'></div>
-                        <div class='left_circle'></div>
-                        <div class='central_circle'></div>
-                        <div class='right_circle'></div>
-                        <div class='line_right'></div>
-                      </div>
-                      <div class='last block'>
-                        <h2>Achievements</h2>
-                        <table className='experience gt'>
-                          <th></th>
-                          <th></th>
-                          <tr>
-                            <td>
-                              <div className='bold'>Leadsquared Award</div>
-                              <div className='date'>June 2019 - Dec 2019</div>
-                            </td>
-                            <td>
-                              <div>
-                                <span className='bold'>
-                                  Star of the quarter award{' '}
-                                </span>
-                              </div>
-                              <div>
-                                Achieved <b>Star of the quarter</b> award for a
-                                best Performer in Portal Development .
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <div className='bold'>PI-A-Thon Hackathon</div>
-                              <div className='date'>May 2018</div>
-                            </td>
-                            <td>
-                              <div>
-                                Participated in this hackathon and Secured first
-                                position - Assisted and Collaborated on project
-                                crowd analysis .<br />
-                                Worked on technologies such as Python ,
-                                Bootstrap , Php, mysql
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <div className='bold'>
-                                Competitive programming
-                              </div>
-                              <div className='date'>Oct 2018 - Present</div>
-                            </td>
-                            <td>
-                              <div>100+ days of continuous coding .</div>
-                              <div>
-                                Solved over 1200 programming questions on
-                                various platform .
-                              </div>
-                              <div>
-                                Ranked top 1 among all student of my university
-                                in stop stalk
-                              </div>
-                              <div>4 star coder at codechef .</div>
-                              <div>
-                                Secured 289 rank in December challenge 2018 and
-                                188 rank in October challenge 2019 division 2 in
-                                Codechef
+                                Implemented external sorting using python. This
+                                algorithm works even when the data (size may be
+                                in GBs) to be sorted does not fit into the RAM
+                                and instead they resides in the slower external
+                                memory.
                               </div>
                             </td>
                           </tr>
