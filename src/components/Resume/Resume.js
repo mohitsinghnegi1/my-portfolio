@@ -116,7 +116,7 @@ class Resume extends React.Component {
                         <p class='purple'>Email:</p>
                         <p>mohitsin3232@gmail.com</p>
                         <p class='purple mb-0'>Data of birth:</p>
-                        <p>21 June 2020</p>
+                        <p>21 June 1998</p>
                         {/* <p class='purple'>Adress:</p>
                         <p>Sri durga pg for gents</p>
                         <p>Koramangala I block , Bangaluru</p>
@@ -377,8 +377,8 @@ class Resume extends React.Component {
                               <div>
                                 Built an online platform from scratch to help
                                 double fold first to help agents refer leads to
-                                the organisation secondly to help the
-                                organisation to identify the lead source for
+                                the organization secondly to help the
+                                organization to identify the lead source for
                                 rewards.
                               </div>
                             </td>
