@@ -170,7 +170,7 @@ class Resume extends React.Component {
                         <blockquote class='profile_quote'>
                           <p>
                             " I am passionate programmer interested in
-                            competitive programming and Full stack development.
+                            Competitive programming and Full stack development.
                             Android app development and UI/UX designing are some
                             other fields that interests me the most. I believe
                             in practical work rather than theoretical. "
@@ -212,9 +212,9 @@ class Resume extends React.Component {
                                 projects that I delivered during my internship.
                               </div>
                               <div>
-                                Grabbed an opportunity of Internship at
-                                Leadsquared as a Software developer intern and
-                                also got a PPO offer from same company.{' '}
+                                Grabbed an Internship opportunity at Leadsquared
+                                as a Software developer intern and also got a
+                                PPO offer from same company.{' '}
                               </div>
                             </td>
                           </tr>
