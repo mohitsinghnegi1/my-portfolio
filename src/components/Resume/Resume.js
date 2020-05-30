@@ -109,13 +109,13 @@ class Resume extends React.Component {
                         {/* <p class='purple mb-0'>Language:</p> */}
                         {/* <p>English , Hindi</p> */}
                       </div>
-                      <div class='contact_details_content'>
+                      <div class='contact_details_content mb-4'>
                         {/* <h2>Contact details</h2> */}
                         <p class='purple'>Mobile No:</p>
-                        <p>+81-9008645536</p>
+                        <p>+91-9008645536</p>
                         <p class='purple'>Email:</p>
                         <p>mohitsin3232@gmail.com</p>
-                        <p class='purple mb-0'>Data of birth:</p>
+                        <p class='purple mb-0'>Data of Birth:</p>
                         <p>21 June 1998</p>
                         {/* <p class='purple'>Adress:</p>
                         <p>Sri durga pg for gents</p>
@@ -208,12 +208,12 @@ class Resume extends React.Component {
                               </div>
                               <div>
                                 Rewarded with Star of the quarter award for
-                                excellence ownernership and accountability on
-                                10+ projects that I delivered during internship.
+                                excellence ownership and accountability on 10+
+                                projects that I delivered during my internship.
                               </div>
                               <div>
                                 Grabbed an opportunity of Internship at
-                                leadsquared as a software developer intern and
+                                Leadsquared as a Software developer intern and
                                 also got a PPO offer from same company{' '}
                               </div>
                             </td>
@@ -228,8 +228,8 @@ class Resume extends React.Component {
                             <td>
                               <div>
                                 Secured <b>first position</b> in Pi-a-thon
-                                hackathone- Assisted and collaborated on project
-                                named as crowd analysis.
+                                hackathon- Assisted and collaborated on project
+                                named as Crowd analysis.
                                 <br />
                                 Worked on technologies such as Python,
                                 Bootstrap, Php, mysql.
@@ -246,7 +246,7 @@ class Resume extends React.Component {
                             <td>
                               <div>
                                 Ranked top 1 among all student of my university
-                                in stop stalk
+                                in Stop stalk
                               </div>
                               <div>
                                 Secured 289 rank in December challenge 2018 and
@@ -259,7 +259,7 @@ class Resume extends React.Component {
                               </div>
 
                               <div>
-                                4 star coder at codechef. Participated in more
+                                4 star coder at Codechef. Participated in more
                                 then 40 hackathones.
                               </div>
                             </td>
@@ -292,7 +292,7 @@ class Resume extends React.Component {
                               <div>
                                 Worked as a Software development intern.
                                 Successfully delivered 10+ portals for clients
-                                like DevBhoomi , ISBR , KIIT during this
+                                SUch as DevBhoomi , ISBR , KIIT during this
                                 internship.
                                 <br />
                                 <b>Technologies used</b> : React framework,
@@ -312,8 +312,8 @@ class Resume extends React.Component {
                                 Redjee Software labs
                               </div>
                               <div>
-                                Worked as a graphic designer, created banners,
-                                posters logo, infographic images. <br />
+                                Worked as a graphic designer, created Banners,
+                                posters Logo, Infographic images. <br />
                                 <b>Tools used :</b> Html5, Css3, Photoshop and
                                 AdobeXD
                               </div>
