@@ -214,7 +214,7 @@ class Resume extends React.Component {
                               <div>
                                 Grabbed an opportunity of Internship at
                                 Leadsquared as a Software developer intern and
-                                also got a PPO offer from same company{' '}
+                                also got a PPO offer from same company.{' '}
                               </div>
                             </td>
                           </tr>
@@ -232,7 +232,7 @@ class Resume extends React.Component {
                                 named as Crowd analysis.
                                 <br />
                                 Worked on technologies such as Python,
-                                Bootstrap, Php, mysql.
+                                Bootstrap, Php, Mysql.
                               </div>
                             </td>
                           </tr>
@@ -246,12 +246,12 @@ class Resume extends React.Component {
                             <td>
                               <div>
                                 Ranked top 1 among all student of my university
-                                in Stop stalk
+                                in Stop stalk.
                               </div>
                               <div>
                                 Secured 289 rank in December challenge 2018 and
                                 161 rank in October challenge 2019 division 2 in
-                                Codechef
+                                Codechef.
                               </div>
                               <div>
                                 Solved over 1200 programming questions on
@@ -260,7 +260,7 @@ class Resume extends React.Component {
 
                               <div>
                                 4 star coder at Codechef. Participated in more
-                                then 40 hackathones.
+                                then 40 hackathon.
                               </div>
                             </td>
                           </tr>
@@ -313,9 +313,9 @@ class Resume extends React.Component {
                               </div>
                               <div>
                                 Worked as a graphic designer, created Banners,
-                                posters Logo, Infographic images. <br />
+                                Posters, Logo, Infographic images. <br />
                                 <b>Tools used :</b> Html5, Css3, Photoshop and
-                                AdobeXD
+                                AdobeXD.
                               </div>
                             </td>
                           </tr>
@@ -335,7 +335,9 @@ class Resume extends React.Component {
                           <th></th>
                           <tr>
                             <td>
-                              <div className='bold title1'>KIIT University</div>
+                              <div className='bold title1'>
+                                Dev Bhoomi Group of Institutions
+                              </div>
                               <div className='date'>Jan - 2020- March 2020</div>
                             </td>
                             <td>
@@ -343,9 +345,9 @@ class Resume extends React.Component {
                                 <span className='bold'>Production link - </span>
 
                                 <a
-                                  href='https://international.kiit.ac.in'
+                                  href='https://admission.dbgidoon.ac.in/'
                                   className='link'>
-                                  International.kiit.ac.in
+                                  Admission.dbgidoon.ac.in/
                                 </a>
                               </div>
                               <div>
