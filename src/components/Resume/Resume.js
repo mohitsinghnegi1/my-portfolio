@@ -345,9 +345,9 @@ class Resume extends React.Component {
                                 <span className='bold'>Production link - </span>
 
                                 <a
-                                  href='https://admission.dbgidoon.ac.in/'
+                                  href='https://admission.dbgidoon.ac.in'
                                   className='link'>
-                                  Admission.dbgidoon.ac.in/
+                                  Admission.dbgidoon.ac.in
                                 </a>
                               </div>
                               <div>
