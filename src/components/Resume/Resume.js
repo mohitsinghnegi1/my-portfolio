@@ -170,7 +170,7 @@ class Resume extends React.Component {
                         <blockquote class='profile_quote'>
                           <p>
                             " I am passionate programmer interested in
-                            competitive programming and full stack development.
+                            competitive programming and Full stack development.
                             Android app development and UI/UX designing are some
                             other fields that interests me the most. I believe
                             in practical work rather than theoretical. "
@@ -292,7 +292,7 @@ class Resume extends React.Component {
                               <div>
                                 Worked as a Software development intern.
                                 Successfully delivered 10+ portals for clients
-                                SUch as DevBhoomi , ISBR , KIIT during this
+                                such as DevBhoomi, ISBR, KIIT during this
                                 internship.
                                 <br />
                                 <b>Technologies used</b> : React framework,
@@ -349,12 +349,12 @@ class Resume extends React.Component {
                                 </a>
                               </div>
                               <div>
-                                CRM Solution for Educational University which
+                                CRM solution for educational university which
                                 allows student to enroll for various courses and
                                 view/search their application history through
                                 dashboard. Automated email will be send to the
-                                student/ Admin based on activity. An Automated
-                                Offer letter gets generated after background
+                                student/ admin based on activity. An automated
+                                offer letter gets generated after background
                                 verification.
                               </div>
                             </td>
@@ -401,7 +401,7 @@ class Resume extends React.Component {
                               <div>
                                 LSQ Money is an online platform which connects
                                 borrowers and lender for loan. Technologies
-                                used: reactjs, bootstrap, rest API, CRM
+                                used: Reactjs, Bootstrap, Restful API, CRM.
                               </div>
                             </td>
                           </tr>
