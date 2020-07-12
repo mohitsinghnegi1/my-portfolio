@@ -1,6 +1,10 @@
 // @import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome);
 
 /* entypo */
+* {
+  font-size: 0.94rem;
+}
+
 [class*='entypo-']:before {
   font-family: 'entypo', sans-serif;
 }

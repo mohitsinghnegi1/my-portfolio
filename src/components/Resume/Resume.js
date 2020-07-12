@@ -67,10 +67,13 @@ class Resume extends React.Component {
                       {/* <!-- LOGOTYPE/NAME --> */}
                       <div class='header_logotype_container'>
                         <h1 class='logotype_name'>
-                          Mohit&nbsp; <span class='purple'>Singh </span>
+                          Mohit&nbsp;{' '}
+                          <span class='purple' style={{ fontSize: '32px' }}>
+                            Singh{' '}
+                          </span>
                         </h1>
                         <h2 class='logotype_occupation pl-1'>
-                          Software Developer
+                          Software Engineer
                         </h2>
                       </div>
                       {/* <!-- MAIN MENU --> */}
@@ -281,7 +284,7 @@ class Resume extends React.Component {
                           <tr>
                             <td>
                               <div className='bold title1'>
-                                Software Development Intern
+                                Software Engineer
                               </div>
                               <div className='date'>June 2019 - Present</div>
                             </td>
@@ -290,10 +293,9 @@ class Resume extends React.Component {
                                 Leadsquared - Marketxpenders
                               </div>
                               <div>
-                                Worked as a Software development intern.
-                                Successfully delivered 10+ portals for clients
-                                such as DevBhoomi, ISBR, KIIT during this
-                                internship.
+                                Working as a Front-End Developer. Successfully
+                                delivered 10+ portals to clients such as
+                                DevBhoomi, ISBR, KIIT within strict deadline.
                                 <br />
                                 <b>Technologies used</b> : React framework,
                                 Bootstrap Restful API and Leadsquared CRM.
@@ -302,9 +304,7 @@ class Resume extends React.Component {
                           </tr>
                           <tr>
                             <td>
-                              <div className='bold title1'>
-                                Graphic designer
-                              </div>
+                              <div className='bold title1'>UI Designer</div>
                               <div className='date'>Jan 2019 - Mar 2019</div>
                             </td>
                             <td>
@@ -312,10 +312,14 @@ class Resume extends React.Component {
                                 Redjee Software labs
                               </div>
                               <div>
-                                Worked as a graphic designer, created Banners,
-                                Posters, Logo, Infographic images. <br />
-                                <b>Tools used :</b> Html5, Css3, Photoshop and
-                                AdobeXD.
+                                Worked as a UI/UX Developer.combined the art of
+                                design with the art of programming.My
+                                Responsibilities include translation of the
+                                UI/UX design wireframes into actual reusable
+                                code
+                                <br />
+                                <b>Tools used :</b> Html5, Css3,Jquery Photoshop
+                                and AdobeXD.
                               </div>
                             </td>
                           </tr>
