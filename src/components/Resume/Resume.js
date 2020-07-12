@@ -281,7 +281,7 @@ class Resume extends React.Component {
                           <tr>
                             <td>
                               <div className='bold title1'>
-                                Software Development Intern
+                                Software Development
                               </div>
                               <div className='date'>June 2019 - Present</div>
                             </td>
