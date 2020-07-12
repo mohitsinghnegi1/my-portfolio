@@ -281,7 +281,7 @@ class Resume extends React.Component {
                           <tr>
                             <td>
                               <div className='bold title1'>
-                                Software Development
+                                Software Engineer
                               </div>
                               <div className='date'>June 2019 - Present</div>
                             </td>
@@ -290,10 +290,14 @@ class Resume extends React.Component {
                                 Leadsquared - Marketxpenders
                               </div>
                               <div>
-                                Worked as a Software development intern.
-                                Successfully delivered 10+ portals for clients
-                                such as DevBhoomi, ISBR, KIIT during this
-                                internship.
+                                Worked as a Front-End Web Developer, motivated
+                                to combine the art of design with the art of
+                                programming.My Responsibilities includes
+                                translation of the UI/UX design wireframes to
+                                actual code that will produce visual elements of
+                                the application.I have successfully delivered
+                                10+ portals to clients such as DevBhoomi, ISBR,
+                                KIIT.
                                 <br />
                                 <b>Technologies used</b> : React framework,
                                 Bootstrap Restful API and Leadsquared CRM.
