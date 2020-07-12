@@ -292,9 +292,7 @@ class Resume extends React.Component {
                               <div>
                                 Working as a Front-End Web Developer.
                                 Successfully delivered 10+ portals for clients
-                                such as DevBhoomi, ISBR, KIIT within strict
-                                deadline.
-                                <br />
+                                such as DevBhoomi, ISBR, KIIT. <br />
                                 <b>Technologies used</b> : React framework,
                                 Bootstrap Restful API and Leadsquared CRM.
                               </div>
